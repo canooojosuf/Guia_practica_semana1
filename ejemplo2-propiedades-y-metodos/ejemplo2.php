@@ -1,5 +1,5 @@
 <?php 
-class Tarea 
+class Tarea1 
 { 
     public string $titulo; 
   
@@ -19,10 +19,10 @@ class Tarea
     }
 } 
   
-$t1 = new Tarea("Diseñar wireframe"); 
-$t2 = new Tarea("Revisar presupuesto"); 
-$t3 = new Tarea("Tu propia tarea");
-$t4 = new Tarea("Pizza");
+$t1 = new Tarea1("Diseñar wireframe"); 
+$t2 = new Tarea1("Revisar presupuesto"); 
+$t3 = new Tarea1("Tu propia tarea");
+$t4 = new Tarea1("Pizza");
 
 $t4->comer();
 $t1->mover(); 
